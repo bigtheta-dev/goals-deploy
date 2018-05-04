@@ -1,3 +1,3 @@
 #!/bin/sh
 
-ln -s sites /etc/nginx/sites-available/
+ln -s "$(pwd)/sites" /etc/nginx/sites-available/
